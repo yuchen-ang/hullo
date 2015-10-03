@@ -66,7 +66,7 @@ git checkout [NAME]
 	switches you to branch [NAME], or master, which is original.git 
 
 
-THIS IS ONLY FEATUREA
+---THIS IS ONLY FEATUREA
 
 >>>>>>> featureA
 
