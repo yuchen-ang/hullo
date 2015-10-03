@@ -62,12 +62,9 @@ git branch
 git checkout [NAME]
 <<<<<<< HEAD
 	switches you to branch [NAME], or master, which is original.
-=======
-	switches you to branch [NAME], or master, which is original.git 
 
+git merge [BRANCH NAME]
 
----THIS IS ONLY FEATUREA
+	merges [BRANCH NAME] into the branch you are currently in.
 
->>>>>>> featureA
-
- v 
+// if thre are clashes between branches, i.e., on same line, you will need to manually fix it yourself.
