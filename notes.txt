@@ -41,4 +41,5 @@ git commit -m "MESSAGE"
 
 git diff 
 	shows what has changed between working dir and staging area
+	!!!!!STILL HAVE PROBLEM!!!! DONT KNOW WHAT THIS IS
 	
