@@ -1,15 +1,37 @@
-pwd  - lists current dir
 
 
-git init - 
-	initialize...?
+pwd
+	lists current dir
 
-touch - make file
 
-git status - checking whats around
+---------------------------------
+
+mkdir gitwokshop
+	makes git folder (remember to enter dir)
+
+
+touch *.*
+	make file
+
+git init
+	initialize, git
+
+
+git status
+	checking whats around
 
 git commit  -m 'MESSAGE'
 	commits change to repository
 
 git log
-	shows all comments made
+	shows all comments, changes done made
+
+	git log --oneline
+		concat the logs
+	
+
+git add *.*
+	add the file into github
+
+git commit -m "MESSAGE"
+	commits all changes done into the log? message MUST be in, YOU MUST PUT IN A MESSAGE HERE, WHICH DESCRIBES WHAT YOU'VE DONE	
