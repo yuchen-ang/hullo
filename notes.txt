@@ -1,7 +1,7 @@
 
 
 pwd
-	lists current dir
+	lists current dir? what is this? how is it diff from "ls" or "dir"
 
 
 ---------------------------------
@@ -19,6 +19,7 @@ git init
 
 git status
 	checking whats around
+	if something is modified and not added, it is displayed as red
 
 git commit  -m 'MESSAGE'
 	commits change to repository
@@ -26,12 +27,17 @@ git commit  -m 'MESSAGE'
 git log
 	shows all comments, changes done made
 
-	git log --oneline
+git log --oneline
 		concat the logs
-	
+
 
 git add *.*
 	add the file into github
+	modified files now appear as green
+
 
 git commit -m "MESSAGE"
 	commits all changes done into the log? message MUST be in, YOU MUST PUT IN A MESSAGE HERE, WHICH DESCRIBES WHAT YOU'VE DONE	
+
+git diff 
+	shows what has changed between working dir and staging area
