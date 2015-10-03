@@ -60,11 +60,9 @@ git branch
 	lists the existing branches in repository. branch with * and in green is in focus.
 
 git checkout [NAME]
-<<<<<<< HEAD
 	switches you to branch [NAME], or master, which is original.
 
 git merge [BRANCH NAME]
-
 	merges [BRANCH NAME] into the branch you are currently in.
-
+	
 // if thre are clashes between branches, i.e., on same line, you will need to manually fix it yourself.
