@@ -6,8 +6,8 @@ pwd
 
 ---------------------------------
 
-mkdir gitwokshop
-	makes git folder (remember to enter dir)
+mkdir [NAME]
+	makes git folder with [NAME] (remember to enter dir)
 
 
 touch *.*
@@ -21,23 +21,25 @@ git status
 	checking whats around
 	if something is modified and not added, it is displayed as red
 
-git commit  -m 'MESSAGE'
-	commits change to repository
-
-git log
-	shows all comments, changes done made
-
-git log --oneline
-		concat the logs
-
-
 git add *.*
 	add the file into github
 	modified files now appear as green
 
+git commit  -m 'MESSAGE'
+	commits change to repository
+
 
 git commit -m "MESSAGE"
 	commits all changes done into the log? message MUST be in, YOU MUST PUT IN A MESSAGE HERE, WHICH DESCRIBES WHAT YOU'VE DONE	
+
+
+git log
+	shows all comments, changes done made
+
+
+git log --oneline
+		concat the logs
+
 
 git diff 
 	shows what has changed between working dir and staging area
@@ -49,4 +51,14 @@ git diff
 -----master
 			-----feature B
 
-either A or B, can drop or merge to become the official timeline 
+either A or B, can drop or merge to become the official timeline (like marvel universe) 
+
+git branch [NAME]
+	creates new branch where [NAME] is name of branch
+
+git branch 
+	lists the existing branches in repository. branch with * and in green is in focus.
+
+git checkout [NAME]
+	switches you to branch [NAME]
+
