@@ -1,0 +1,15 @@
+pwd  - lists current dir
+
+
+git init - 
+	initialize...?
+
+touch - make file
+
+git status - checking whats around
+
+git commit  -m 'MESSAGE'
+	commits change to repository
+
+git log
+	shows all comments made
