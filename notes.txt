@@ -60,5 +60,14 @@ git branch
 	lists the existing branches in repository. branch with * and in green is in focus.
 
 git checkout [NAME]
+<<<<<<< HEAD
 	switches you to branch [NAME], or master, which is original.
+=======
+	switches you to branch [NAME], or master, which is original.git 
 
+
+THIS IS ONLY FEATUREA
+
+>>>>>>> featureA
+
+ v 
