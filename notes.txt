@@ -42,4 +42,11 @@ git commit -m "MESSAGE"
 git diff 
 	shows what has changed between working dir and staging area
 	!!!!!STILL HAVE PROBLEM!!!! DONT KNOW WHAT THIS IS
-	
+
+// branching ---- allows you to develop new features while preserving original Master. allows you to work on multiple features exclusive of each other
+
+			-----feature A 
+-----master
+			-----feature B
+
+either A or B, can drop or merge to become the official timeline 
