@@ -56,7 +56,7 @@ either A or B, can drop or merge to become the official timeline (like marvel un
 git branch [NAME]
 	creates new branch where [NAME] is name of branch
 
-git branch 
+[MESSING UP HERE]git branch 
 	lists the existing branches in repository. branch with * and in green is in focus.
 
 git checkout [NAME]
